@@ -1,0 +1,94 @@
+﻿  Detour.cpp
+  main.cpp
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(101,9): warning : variable 'rejEntry' set but not used [-Wunused-but-set-variable]
+    101 |     int rejEntry = 0, rejHead = 0, rejInner = 0, rejArr = 0, rejStr = 0, rejCount = 0;
+        |         ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(101,23): warning : variable 'rejHead' set but not used [-Wunused-but-set-variable]
+    101 |     int rejEntry = 0, rejHead = 0, rejInner = 0, rejArr = 0, rejStr = 0, rejCount = 0;
+        |                       ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(101,36): warning : variable 'rejInner' set but not used [-Wunused-but-set-variable]
+    101 |     int rejEntry = 0, rejHead = 0, rejInner = 0, rejArr = 0, rejStr = 0, rejCount = 0;
+        |                                    ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(101,50): warning : variable 'rejArr' set but not used [-Wunused-but-set-variable]
+    101 |     int rejEntry = 0, rejHead = 0, rejInner = 0, rejArr = 0, rejStr = 0, rejCount = 0;
+        |                                                  ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(101,62): warning : variable 'rejStr' set but not used [-Wunused-but-set-variable]
+    101 |     int rejEntry = 0, rejHead = 0, rejInner = 0, rejArr = 0, rejStr = 0, rejCount = 0;
+        |                                                              ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(101,74): warning : variable 'rejCount' set but not used [-Wunused-but-set-variable]
+    101 |     int rejEntry = 0, rejHead = 0, rejInner = 0, rejArr = 0, rejStr = 0, rejCount = 0;
+        |                                                                          ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(443,13): warning : 23 enumeration values not handled in switch: 'NONE', 'T5_SP', 'T5_MP'... [-Wswitch]
+    443 |     switch (g_id) 
+        |             ^~~~
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(1829,22): warning : variable 'remapped' set but not used [-Wunused-but-set-variable]
+   1829 |             uint16_t remapped = 0;
+        |                      ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\main.cpp(2862,9): warning : add explicit braces to avoid dangling else [-Wdangling-else]
+   2862 |         else
+        |         ^
+  9 warnings generated.
+  t89_huds.cpp
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\t89_huds.cpp(3191,5): warning : increment of object of volatile-qualified type 'volatile int' is deprecated [-Wdeprecated-volatile]
+   3191 |     ++logged;
+        |     ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\t89_huds.cpp(3279,13): warning : increment of object of volatile-qualified type 'volatile int' is deprecated [-Wdeprecated-volatile]
+   3279 |             ++g_rrBadLogs;
+        |             ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\t89_huds.cpp(3342,39): warning : increment of object of volatile-qualified type 'volatile int' is deprecated [-Wdeprecated-volatile]
+   3342 |         s = &g_errSites[g_errSiteCount++];
+        |                                       ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\t89_huds.cpp(3431,9): warning : increment of object of volatile-qualified type 'volatile int' is deprecated [-Wdeprecated-volatile]
+   3431 |         ++g_ofGetLogs;
+        |         ^
+C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\t89_huds.cpp(3449,9): warning : increment of object of volatile-qualified type 'volatile int' is deprecated [-Wdeprecated-volatile]
+   3449 |         ++g_ofSetLogs;
+        |         ^
+  5 warnings generated.
+  utilities.cpp
+  hde64.c
+  GSCLabs.vcxproj -> C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\ORBIS_Debug\GSCLabs.prx
+  processing elf file: C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\GSCLabs.prx.down
+  elf magic: ok
+  module file detected
+  wanted sdk version: 04.500.000
+  searching for module param segment...
+  parsing param structure...
+  sdk version: 12.008.011
+  fixing param structure...
+  removing memory holes...
+  searching for version segment...
+  parsing library list...
+  crti (sdk version: 12.008.011)
+  crtbeginS (sdk version: 12.008.011)
+  crtendS (sdk version: 12.008.011)
+  crtn (sdk version: 12.008.011)
+  libSceNet_stub_weak (sdk version: 12.008.011)
+  libSceSystemService_stub (sdk version: 12.008.011)
+  libSceSystemService_stub_weak (sdk version: 12.008.011)
+  libkernel_stub_weak (sdk version: 12.008.011)
+  libSceVideoOut_stub_weak (sdk version: 12.008.011)
+  libkernel_stub_weak (sdk version: 12.008.011)
+  libc_stub_weak (sdk version: 12.008.011)
+  fixing sdk versions in library list...
+  fixing elf header...
+  done
+  loading elf file: C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\GSCLabs.prx.down
+  saving fake signed elf file: C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\ORBIS_Debug\GSCLabs.sprx
+  processing segment #00...
+  processing segment #01...
+  processing segment #02...
+  processing segment #07...
+  processing segment #08...
+  done
+  curl: (28) Failed to connect to 192.168.1.107 port 2121 after 21044 ms: Could not connect to server
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command ":: Run the downgrade script: Read from build dir, write temp to project root
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: python.exe "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\downgrade_elf.py" --verbose --sdk-version 04.500.000 "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\ORBIS_Debug\GSCLabs.prx" "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\GSCLabs.prx.down"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :: Run the fself tool: Read temp from project root, save final .sprx to build dir
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: python.exe "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\make_fself.py" "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\GSCLabs.prx.down" "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\ORBIS_Debug\GSCLabs.sprx" --fw-version 0x04050000
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :: Cleanup: Remove the original .prx from build dir and the temp file from project root
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: del "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\ORBIS_Debug\GSCLabs.prx"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: del "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\GSCLabs.prx.down"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :: FTP the built .sprx to the console
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: curl -T "C:\Users\Skidf\OneDrive\Documents\GitHub\GSCLabs_SPRX_\PS4\ORBIS_Debug\GSCLabs.sprx" --user "anonymous:" --ftp-create-dirs --disable-epsv --silent --show-error "ftp://192.168.1.107:2121/data/GSCLabs/"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 28.
