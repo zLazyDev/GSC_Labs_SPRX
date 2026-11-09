@@ -1,4 +1,4 @@
-Hello today i am releasing the GSCLabs source for the SPRX this how gsc is loaded on multiple Call of Duty's
+Hello today i am releasing the GSCLabs source for the SPRX this how gsc is loaded on multiple Call of Duty's, including how to patch the overflow fix on some call of duty's that need it and how to rebuild the huds on BO4, CW, also on how to fix the netconststrings on MW2019+
 
 Call of Duty: Black Ops
 
